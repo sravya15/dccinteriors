@@ -292,7 +292,7 @@ button::-moz-focus-inner {
   background: black;
 }
 
-/* Main image in popup */
+
 img.mfp-img {
   width: auto;
   max-width: 100%;
@@ -306,7 +306,7 @@ img.mfp-img {
   margin: 0 auto;
 }
 
-/* The shadow behind the image */
+
 .mfp-figure {
   line-height: 0;
 }
@@ -363,9 +363,7 @@ img.mfp-img {
 }
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
-  /**
-       * Remove all paddings around the image on small screen
-       */
+
   .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0;
